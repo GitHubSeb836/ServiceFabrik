@@ -1,0 +1,9 @@
+LIBRARY ReliableCollectionTestInterop
+EXPORTS
+    FabricGetReliableCollectionApiTable
+    ReliableCollectionStandalone_Initialize
+    ReliableCollectionStandalone_RequestCheckpointAfterNextTransaction
+    ReliableCollectionStandalone_ResetReplica
+    ReliableCollectionStandalone_OpenReplica
+    ReliableCollectionStandalone_Cleanup
+    ReliableCollectionStandalone_InitializeEx
